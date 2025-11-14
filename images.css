@@ -1,0 +1,42 @@
+#Home {
+    background-image: url('images/image2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 70vh;
+    color: white;
+    text-align: center;
+    h3{
+        margin-bottom: 250px;
+        color: rgb(188, 188, 188); 
+    }
+}
+
+#Aboutme{
+    color: white;
+    background-image: url('images/image3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 60vh;
+}
+#Skillset{
+    background-image: url('images/image10.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 60vh;
+}
+#Works{
+    background-image: url('images/image11.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 70vh;
+    color: white;
+}
+#Viginere{
+
+    min-height: 60vh;
+    color: white;
+}
