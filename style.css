@@ -1,5 +1,8 @@
 /*Header*/
 header {
+    a{
+        text-decoration: none;
+    }
     display: flex;
     align-items: center;
     padding: 10px;
@@ -7,6 +10,7 @@ header {
     color: white;
 }
 header h2 {
+    color: white;
     margin: 10px;
     font-family: 'Inter', sans-serif;
     font-weight: bold;
@@ -15,7 +19,7 @@ header h2 {
 header nav a {
     color: white;
     text-decoration: none;
-    margin-left: 20px;             /* space between each nav link */
+    margin-left: 20px;
     font-weight: bold;
     font-family: 'Inter', sans-serif;
 }
@@ -63,4 +67,15 @@ body{
     width: 300px;
     height: 100px;
     border-radius: 10px;
+}.Gallery{
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    justify-content: center;
+    img{
+    border-radius: 50%;
+    width: 100px;
+    object-fit: cover;
+    height: 100px;
+    }
 }
