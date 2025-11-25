@@ -7,10 +7,13 @@
     <link rel="stylesheet" href="typ1.css">
     <link href="https://fonts.googleapis.com/css2?family=Krub&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="animation.css">
 </head>
 <body>
     <header>
-        <h2><b>Jake Choi</b></h2>
+        <a href="#Home"><h2 class="fade-in"><b>Jake Choi</b></h2></a>
         <nav>
             <a href="#Home">Home</a>
             <a href="#Aboutme">About Me</a>
@@ -20,59 +23,56 @@
         </nav>
     </header>
     <section id="Home">
-        <h1>Jake Choi</h1>
-        <h3>Aspiring Software Developer</h3>
-        <h3>Honing excellence in Music, Web Dev., and Graphic Design</h3>
+        <h1 class="fade-in">Jake Choi</h1>
+        <h3 class="fade-in">Aspiring Software Developer</h3>
+        <h3 class="fade-in">Honing excellence in Music, Web Dev., and Graphic Design</h3>
     </section>
 
-    <section id="Aboutme">
+    <section id="Aboutme" data-aos="fade-up">
         <h1>About Me</h1>
         <h3>Hi, I am Jake, an aspiring software developer who enjoys designing and coding.</h3>
     </section>
-    <section id="Skillset">
+    <section id="Skillset" data-aos="fade-up">
         <h1>Skill Set</h1>
         <li>Python</li>
         <li>HTML</li>
         <li>CSS</li>
         <li>Javascript</li>
     </section>
-    <section id="Works">
-        <h1 data-shadow='Works'>Selected Works</h1>
+    <section id="Works" data-aos="fade-up">
+        <h1>Selected Works</h1>
+        <div class="Gallery">
+            <a href = "#Doodle"><img src="images/image4.png" alt="Doodle"></a>
+            <a href = "#Bakery"><img src="images/image5.png" alt="Bakery image"></a>
+            <a href = "#Viginere"><img src="images/image12.png" alt="Viginere image"></a>
+        </div>
     </section>
     <section id="Doodle">
-        <h1>01 Winter Google Doodle</h1>
-        <h4>This Winter Google Doodle design was created using Adobe Photoshop and Adobe Illustrator. It was inspired by a Christmas advertisement I saw at a mall, particularly the two Christmas balls.</h4>
-        <img src="images/image4.png" alt="Doodle">
+        <h1 data-aos="fade-left">01 Winter Google Doodle</h1>
+        <h4 data-aos="fade-up" data-aos-anchor-placement="top-bottom">This Winter Google Doodle design was created using Adobe Photoshop and Adobe Illustrator. It was inspired by a Christmas advertisement I saw at a mall, particularly the two Christmas balls.</h4>
+        <img src="images/image4.png" alt="Doodle" data-aos="zoom-in">
     </section>
-    <section id="Digital Bakery">
-        <h1>02 Digital Bakery</h1>
-        <h4>The focus here was on program design, style, and user experience using tkinter. A real ordering platform needs to be error-proof and user-friendly, which I aimed to achieve in this project. My partner and I worked together on this; he designed the buttons while I organized them within different frames. I was responsible for writing the functions for the buttons, while he proofread my code. We collaborated on creating a custom tip frame, with him handling the button design and me focusing on the logic for the tip frame.</h4>
-        <img src="images/image5.png" alt="Bakery image">
+    <section id="Bakery">
+        <h1 data-aos="fade-right">02 Digital Bakery</h1>
+        <h4 data-aos="fade-up">The focus here was on program design, style, and user experience using tkinter. A real ordering platform needs to be error-proof and user-friendly, which I aimed to achieve in this project. My partner and I worked together on this; he designed the buttons while I organized them within different frames. I was responsible for writing the functions for the buttons, while he proofread my code. We collaborated on creating a custom tip frame, with him handling the button design and me focusing on the logic for the tip frame.</h4>
+        <img src="images/image5.png" alt="Bakery image" data-aos="fade-up">
     </section>
     <section id="Viginere">
-        <h1>03 Viginere</h1>
-        <h4>In this viginere cipher program, the focus here is tinkering with different methods. It took me a couple of days to finish because I got stuck in making the code of moving individual characters by the corresponding character of the key. After reviewing the slides, I figured out a different way to approach the problem, so I included two solutions for each part.</h4>
-        <img src="images/image12.png" alt="Viginere image">
+        <h1 data-aos="fade-left">03 Viginere</h1>
+        <h4 data-aos="fade-right">In this viginere cipher program, the focus here is tinkering with different methods. It took me a couple of days to finish because I got stuck in making the code of moving individual characters by the corresponding character of the key. After reviewing the slides, I figured out a different way to approach the problem, so I included two solutions for each part.</h4>
+        <img src="images/image12.png" alt="Viginere image" data-aos="fade-up">
     </section>
     <section id="Contact">
-        <h1>Let's connect</h1>
-        <div>
-        <label for="name">Add a name:</label>
-        <input type="name" id="name" name="name" placeholder="Name">
-        </div>
-        <div>
-        <label for="email">Add an email:</label>
-        <input type="email" id="email" name="email" placeholder="you@example.com">
-        </div>
-        <div>
-        <label for="message">Leave a message:</label>
-        </div>
-        <div>
-        <textarea id="message" name="message" placeholder="Leave a message"></textarea></div>
-        <div>
-        <button type="submit">Send</button>
+        <h1 data-aos="zoom-in-up">Let's connect</h1>
+        <div data-aos="zoom-in-up">
+            <a href="mailto:kc08choi@gmail.com" class="button">Send me a message!</a>
         </div>
     </section>
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
+
+
 </html>
