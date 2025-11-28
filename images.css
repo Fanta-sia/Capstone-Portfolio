@@ -43,10 +43,19 @@
     min-height: 70vh;
     color: white;
 }
+#Doodle img{
+    max-width: 80%;
+    margin: 0 auto;
+}
 #Viginere{
     min-height: 70vh;
     color: white;
-} img{
+}
+#Viginere img{
+    max-width: 80%;
+    margin: 0 auto;
+}
+img{
     border-radius: 40px;
     max-width: 100%;
     display: block;
