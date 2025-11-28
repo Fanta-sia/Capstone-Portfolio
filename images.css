@@ -1,7 +1,7 @@
 #Home {
     background-image: url('images/image2.png');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     min-height: 90vh;
     color: white;
@@ -19,7 +19,7 @@
     background-size: cover;
     background-position: center;
     border-radius: 40px; 
-    min-height: 60vh;
+    min-height: 70vh;
 }
 #Skillset{
     padding-top: 50px;
@@ -29,7 +29,7 @@
     background-size: cover;
     background-position: center;
     border-radius: 40px; 
-    min-height: 60vh;
+    min-height: 70vh;
 }
 #Works{
     padding-top: 70px;
@@ -40,14 +40,17 @@
     background-size: cover;
     border-radius: 40px; 
     background-position: center;
-    min-height: 60vh;
+    min-height: 70vh;
     color: white;
 }
 #Viginere{
-    min-height: 60vh;
+    min-height: 70vh;
     color: white;
 } img{
     border-radius: 40px;
     max-width: 100%;
     display: block;
+}#Bakery img{
+    max-width:80%;
+    margin: 0 auto;
 }
