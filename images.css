@@ -1,9 +1,13 @@
 #Home {
     background-image: url('images/image2.png');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top center;
     background-position: center;
-    min-height: 90vh;
+    max-height: 500px;
+    max-width: 2000px;
+    width: 100%;
     color: white;
     text-align: center;
     h3{
