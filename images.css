@@ -1,9 +1,7 @@
 #Home {
     background-image: url('images/image2.png');
     background-repeat: no-repeat;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: top center;
+    background-size: cover;
     background-position: center;
     max-height: 500px;
     max-width: 2000px;
